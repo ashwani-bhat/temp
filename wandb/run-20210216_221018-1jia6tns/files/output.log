@@ -1,0 +1,12 @@
+Epoch 1 of 2:   0%|                                                                                                                                    | 0/2 [00:03<?, ?it/s]Running Epoch 0 of 2:   0%|          | 0/633 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "me_train_qa.py", line 221, in <module>
+    qa_model.train_model(x_train, eval_data=x_valid)
+  File "/content/drive/MyDrive/NLP projects/Emotion-cause-pair/RECCON/arch/question_answering.py", line 337, in train_model
+    train_dataset, output_dir, show_running_loss=show_running_loss, eval_data=eval_data, **kwargs
+  File "/content/drive/MyDrive/NLP projects/Emotion-cause-pair/RECCON/arch/question_answering.py", line 504, in train
+    outputs = model(**inputs)
+  File "/usr/local/lib/python3.6/dist-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/content/drive/MyDrive/NLP projects/Emotion-cause-pair/RECCON/arch/bert_qa.py", line 109, in forward
+    sequence_output, _ = self.encoder(sequence_output)
+ValueError: too many values to unpack (expected 2)

@@ -1,0 +1,33 @@
+{
+    "os": "Linux-4.19.112+-x86_64-with-Ubuntu-18.04-bionic",
+    "python": "3.6.9",
+    "heartbeatAt": "2021-02-16T21:58:01.024338",
+    "startedAt": "2021-02-16T21:57:57.936398",
+    "docker": null,
+    "gpu": "Tesla P100-PCIE-16GB",
+    "gpu_count": 1,
+    "cpu_count": 2,
+    "cuda": "10.1.243",
+    "args": [
+        "--model",
+        "spanbi",
+        "--epochs",
+        "2",
+        "--context",
+        "--batch-size",
+        "8",
+        "--overwrite_output_dir"
+    ],
+    "state": "running",
+    "codePath": "me_train_qa.py",
+    "program": "me_train_qa.py",
+    "git": {
+        "remote": "https://github.com/ashwani-bhat/RECCON.git",
+        "commit": "44b2b14f3eba862e42cb5871318d7c78bf4f14b6"
+    },
+    "email": null,
+    "root": "/content/drive/MyDrive/NLP projects/Emotion-cause-pair/RECCON",
+    "host": "40d4df3016ae",
+    "username": "root",
+    "executable": "/usr/bin/python3"
+}

@@ -1,0 +1,65 @@
+2021-02-16 20:52:30,895 INFO    MainThread:7312 [wandb_setup.py:_flush():70] setting env: {}
+2021-02-16 20:52:30,896 INFO    MainThread:7312 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2021-02-16 20:52:30,897 INFO    MainThread:7312 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-02-16 20:52:30,898 INFO    MainThread:7312 [wandb_init.py:_log_setup():319] Logging user logs to /content/drive/MyDrive/NLP projects/Emotion-cause-pair/RECCON/wandb/run-20210216_205230-16ib1a41/logs/debug.log
+2021-02-16 20:52:30,899 INFO    MainThread:7312 [wandb_init.py:_log_setup():320] Logging internal logs to /content/drive/MyDrive/NLP projects/Emotion-cause-pair/RECCON/wandb/run-20210216_205230-16ib1a41/logs/debug-internal.log
+2021-02-16 20:52:30,899 INFO    MainThread:7312 [wandb_init.py:init():351] calling init triggers
+2021-02-16 20:52:30,900 INFO    MainThread:7312 [wandb_init.py:init():358] wandb.init called with sweep_config: {}
+config: {'adam_epsilon': 1e-08, 'best_model_dir': 'outputs/spanbert-bilstm-dailydialog-qa-with-context-fold1/best_model/', 'cache_dir': 'cache_dir/', 'config': {}, 'custom_layer_parameters': [], 'custom_parameter_groups': [], 'dataloader_num_workers': 1, 'do_lower_case': False, 'dynamic_quantize': False, 'early_stopping_consider_epochs': False, 'early_stopping_delta': 0, 'early_stopping_metric': 'correct', 'early_stopping_metric_minimize': False, 'early_stopping_patience': 3, 'encoding': None, 'eval_batch_size': 8, 'evaluate_during_training': True, 'evaluate_during_training_silent': True, 'evaluate_during_training_steps': 625, 'evaluate_during_training_verbose': False, 'evaluate_each_epoch': True, 'fp16': False, 'gradient_accumulation_steps': 1, 'learning_rate': 1e-05, 'local_rank': -1, 'logging_steps': 50, 'manual_seed': None, 'max_grad_norm': 1.0, 'max_seq_length': 512, 'model_name': 'mrm8488/spanbert-finetuned-squadv2', 'model_type': 'bertbi', 'multiprocessing_chunksize': 500, 'n_gpu': 1, 'no_cache': False, 'no_save': False, 'not_saved_args': [], 'num_train_epochs': 2, 'output_dir': 'outputs/spanbert-bilstm-dailydialog-qa-with-context-fold1/', 'overwrite_output_dir': True, 'process_count': 1, 'quantized_model': False, 'reprocess_input_data': True, 'save_best_model': True, 'save_eval_checkpoints': False, 'save_model_every_epoch': False, 'save_optimizer_and_scheduler': True, 'save_steps': -1, 'silent': False, 'tensorboard_dir': None, 'thread_count': None, 'train_batch_size': 8, 'train_custom_parameters_only': False, 'use_cached_eval_features': False, 'use_early_stopping': False, 'use_multiprocessing': True, 'wandb_kwargs': {}, 'wandb_project': 'reccon', 'warmup_ratio': 0.06, 'warmup_steps': 76, 'weight_decay': 0, 'skip_special_tokens': True, 'model_class': 'QuestionAnsweringModel', 'doc_stride': 512, 'lazy_loading': False, 'max_answer_length': 200, 'max_query_length': 512, 'n_best_size': 20, 'null_score_diff_threshold': 0.0}
+2021-02-16 20:52:30,900 INFO    MainThread:7312 [wandb_init.py:init():404] starting backend
+2021-02-16 20:52:30,937 INFO    MainThread:7312 [backend.py:ensure_launched():81] starting backend process...
+2021-02-16 20:52:30,972 INFO    MainThread:7312 [backend.py:ensure_launched():86] started backend process with pid: 7421
+2021-02-16 20:52:30,975 INFO    MainThread:7312 [wandb_init.py:init():413] backend started and connected
+2021-02-16 20:52:30,988 INFO    MainThread:7312 [wandb_init.py:init():436] updated telemetry
+2021-02-16 20:52:31,000 INFO    MainThread:7312 [wandb_init.py:init():459] communicating current version
+2021-02-16 20:52:32,254 INFO    MainThread:7312 [wandb_init.py:init():464] got version response 
+2021-02-16 20:52:32,255 INFO    MainThread:7312 [wandb_init.py:init():472] communicating run to backend with 30 second timeout
+2021-02-16 20:52:32,582 INFO    MainThread:7312 [wandb_init.py:init():495] starting run threads in backend
+2021-02-16 20:52:35,188 INFO    MainThread:7312 [wandb_run.py:_console_start():1411] atexit reg
+2021-02-16 20:52:35,191 INFO    MainThread:7312 [wandb_run.py:_redirect():1274] redirect: SettingsConsole.REDIRECT
+2021-02-16 20:52:35,194 INFO    MainThread:7312 [wandb_run.py:_redirect():1279] Redirecting console.
+2021-02-16 20:52:35,194 INFO    MainThread:7312 [redirect.py:install():213] install start
+2021-02-16 20:52:35,198 INFO    MainThread:7312 [redirect.py:install():228] install stop
+2021-02-16 20:52:35,198 INFO    MainThread:7312 [redirect.py:install():213] install start
+2021-02-16 20:52:35,199 INFO    MainThread:7312 [redirect.py:install():228] install stop
+2021-02-16 20:52:35,200 INFO    MainThread:7312 [wandb_run.py:_redirect():1325] Redirects installed.
+2021-02-16 20:52:35,202 INFO    MainThread:7312 [wandb_init.py:init():518] run started, returning control to user process
+2021-02-16 20:52:35,202 INFO    MainThread:7312 [wandb_watch.py:watch():39] Watching
+2021-02-16 20:52:35,358 INFO    MainThread:7312 [wandb_run.py:_atexit_cleanup():1381] got exitcode: 1
+2021-02-16 20:52:35,361 INFO    MainThread:7312 [wandb_run.py:_restore():1353] restore
+2021-02-16 20:52:35,362 INFO    MainThread:7312 [redirect.py:uninstall():232] uninstall start
+2021-02-16 20:52:35,363 INFO    MainThread:7312 [redirect.py:_stop():287] _stop: stdout
+2021-02-16 20:52:35,364 INFO    stdout    :7312 [redirect.py:_pipe_relay():129] relay done saw last write: stdout
+2021-02-16 20:52:35,364 INFO    stdout    :7312 [redirect.py:_pipe_relay():145] relay done done: stdout
+2021-02-16 20:52:35,364 INFO    MainThread:7312 [redirect.py:_stop():293] _stop closed: stdout
+2021-02-16 20:52:35,365 INFO    MainThread:7312 [redirect.py:_stop():299] _stop joined: stdout
+2021-02-16 20:52:35,365 INFO    MainThread:7312 [redirect.py:_stop():301] _stop rd closed: stdout
+2021-02-16 20:52:35,366 INFO    MainThread:7312 [redirect.py:uninstall():236] uninstall done
+2021-02-16 20:52:35,366 INFO    MainThread:7312 [redirect.py:uninstall():232] uninstall start
+2021-02-16 20:52:35,366 INFO    MainThread:7312 [redirect.py:_stop():287] _stop: stderr
+2021-02-16 20:52:35,367 INFO    stderr    :7312 [redirect.py:_pipe_relay():129] relay done saw last write: stderr
+2021-02-16 20:52:35,367 INFO    stderr    :7312 [redirect.py:_pipe_relay():145] relay done done: stderr
+2021-02-16 20:52:35,367 INFO    MainThread:7312 [redirect.py:_stop():293] _stop closed: stderr
+2021-02-16 20:52:35,367 INFO    MainThread:7312 [redirect.py:_stop():299] _stop joined: stderr
+2021-02-16 20:52:35,367 INFO    MainThread:7312 [redirect.py:_stop():301] _stop rd closed: stderr
+2021-02-16 20:52:35,368 INFO    MainThread:7312 [redirect.py:uninstall():236] uninstall done
+2021-02-16 20:52:35,662 INFO    MainThread:7312 [wandb_run.py:_wait_for_finish():1504] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 906
+  total_bytes: 906
+}
+
+2021-02-16 20:52:37,669 INFO    MainThread:7312 [wandb_run.py:_wait_for_finish():1504] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 13123
+  total_bytes: 13123
+}
+
+2021-02-16 20:52:38,970 INFO    MainThread:7312 [wandb_run.py:_show_files():1726] logging synced files

@@ -1,0 +1,69 @@
+2021-02-11 08:17:48,936 INFO    MainThread:3753 [wandb_setup.py:_flush():70] setting env: {}
+2021-02-11 08:17:48,937 INFO    MainThread:3753 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2021-02-11 08:17:48,937 INFO    MainThread:3753 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-02-11 08:17:48,940 INFO    MainThread:3753 [wandb_init.py:_log_setup():319] Logging user logs to /content/drive/MyDrive/NLP projects/Emotion-cause-pair/RECCON/wandb/run-20210211_081748-3c2l0rpe/logs/debug.log
+2021-02-11 08:17:48,940 INFO    MainThread:3753 [wandb_init.py:_log_setup():320] Logging internal logs to /content/drive/MyDrive/NLP projects/Emotion-cause-pair/RECCON/wandb/run-20210211_081748-3c2l0rpe/logs/debug-internal.log
+2021-02-11 08:17:48,941 INFO    MainThread:3753 [wandb_init.py:init():324] calling init triggers
+2021-02-11 08:17:48,941 INFO    MainThread:3753 [wandb_init.py:init():331] wandb.init called with sweep_config: {}
+config: {'adam_epsilon': 1e-08, 'best_model_dir': 'outputs/bert-base-uncased-bilstm-dailydialog-qa-with-context-fold1/best_model/', 'cache_dir': 'cache_dir/', 'config': {}, 'custom_layer_parameters': [], 'custom_parameter_groups': [], 'dataloader_num_workers': 1, 'do_lower_case': False, 'dynamic_quantize': False, 'early_stopping_consider_epochs': False, 'early_stopping_delta': 0, 'early_stopping_metric': 'correct', 'early_stopping_metric_minimize': False, 'early_stopping_patience': 3, 'encoding': None, 'eval_batch_size': 8, 'evaluate_during_training': True, 'evaluate_during_training_silent': True, 'evaluate_during_training_steps': 13, 'evaluate_during_training_verbose': False, 'evaluate_each_epoch': True, 'fp16': False, 'gradient_accumulation_steps': 1, 'learning_rate': 1e-05, 'local_rank': -1, 'logging_steps': 50, 'manual_seed': None, 'max_grad_norm': 1.0, 'max_seq_length': 512, 'model_name': 'bert-base-uncased', 'model_type': 'bertbi', 'multiprocessing_chunksize': 500, 'n_gpu': 1, 'no_cache': False, 'no_save': False, 'not_saved_args': [], 'num_train_epochs': 2, 'output_dir': 'outputs/bert-base-uncased-bilstm-dailydialog-qa-with-context-fold1/', 'overwrite_output_dir': True, 'process_count': 1, 'quantized_model': False, 'reprocess_input_data': True, 'save_best_model': True, 'save_eval_checkpoints': False, 'save_model_every_epoch': False, 'save_optimizer_and_scheduler': True, 'save_steps': -1, 'silent': False, 'tensorboard_dir': None, 'thread_count': None, 'train_batch_size': 8, 'train_custom_parameters_only': False, 'use_cached_eval_features': False, 'use_early_stopping': False, 'use_multiprocessing': True, 'wandb_kwargs': {}, 'wandb_project': 'reccon', 'warmup_ratio': 0.06, 'warmup_steps': 2, 'weight_decay': 0, 'skip_special_tokens': True, 'model_class': 'QuestionAnsweringModel', 'doc_stride': 512, 'lazy_loading': False, 'max_answer_length': 200, 'max_query_length': 512, 'n_best_size': 20, 'null_score_diff_threshold': 0.0}
+2021-02-11 08:17:48,941 INFO    MainThread:3753 [wandb_init.py:init():401] starting backend
+2021-02-11 08:17:48,989 INFO    MainThread:3753 [backend.py:ensure_launched():81] starting backend process...
+2021-02-11 08:17:49,047 INFO    MainThread:3753 [backend.py:ensure_launched():86] started backend process with pid: 3825
+2021-02-11 08:17:49,049 INFO    MainThread:3753 [wandb_init.py:init():410] backend started and connected
+2021-02-11 08:17:49,056 INFO    MainThread:3753 [wandb_init.py:init():433] updated telemetry
+2021-02-11 08:17:49,058 INFO    MainThread:3753 [wandb_init.py:init():456] communicating current version
+2021-02-11 08:17:49,889 INFO    MainThread:3753 [wandb_init.py:init():461] got version response 
+2021-02-11 08:17:49,890 INFO    MainThread:3753 [wandb_init.py:init():469] communicating run to backend with 30 second timeout
+2021-02-11 08:17:50,054 INFO    MainThread:3753 [wandb_init.py:init():492] starting run threads in backend
+2021-02-11 08:17:51,839 INFO    MainThread:3753 [wandb_run.py:_console_start():1411] atexit reg
+2021-02-11 08:17:51,842 INFO    MainThread:3753 [wandb_run.py:_redirect():1274] redirect: SettingsConsole.REDIRECT
+2021-02-11 08:17:51,844 INFO    MainThread:3753 [wandb_run.py:_redirect():1279] Redirecting console.
+2021-02-11 08:17:51,844 INFO    MainThread:3753 [redirect.py:install():213] install start
+2021-02-11 08:17:51,846 INFO    MainThread:3753 [redirect.py:install():228] install stop
+2021-02-11 08:17:51,846 INFO    MainThread:3753 [redirect.py:install():213] install start
+2021-02-11 08:17:51,847 INFO    MainThread:3753 [redirect.py:install():228] install stop
+2021-02-11 08:17:51,847 INFO    MainThread:3753 [wandb_run.py:_redirect():1325] Redirects installed.
+2021-02-11 08:17:51,847 INFO    MainThread:3753 [wandb_init.py:init():515] run started, returning control to user process
+2021-02-11 08:17:51,848 INFO    MainThread:3753 [wandb_watch.py:watch():39] Watching
+2021-02-11 08:20:28,605 INFO    MainThread:3753 [wandb_run.py:_atexit_cleanup():1381] got exitcode: 0
+2021-02-11 08:20:28,609 INFO    MainThread:3753 [wandb_run.py:_restore():1353] restore
+2021-02-11 08:20:28,610 INFO    MainThread:3753 [redirect.py:uninstall():232] uninstall start
+2021-02-11 08:20:28,610 INFO    MainThread:3753 [redirect.py:_stop():287] _stop: stdout
+2021-02-11 08:20:28,611 INFO    MainThread:3753 [redirect.py:_stop():293] _stop closed: stdout
+2021-02-11 08:20:28,611 INFO    stdout    :3753 [redirect.py:_pipe_relay():129] relay done saw last write: stdout
+2021-02-11 08:20:28,611 INFO    stdout    :3753 [redirect.py:_pipe_relay():145] relay done done: stdout
+2021-02-11 08:20:28,612 INFO    MainThread:3753 [redirect.py:_stop():299] _stop joined: stdout
+2021-02-11 08:20:28,612 INFO    MainThread:3753 [redirect.py:_stop():301] _stop rd closed: stdout
+2021-02-11 08:20:28,613 INFO    MainThread:3753 [redirect.py:uninstall():236] uninstall done
+2021-02-11 08:20:28,613 INFO    MainThread:3753 [redirect.py:uninstall():232] uninstall start
+2021-02-11 08:20:28,613 INFO    MainThread:3753 [redirect.py:_stop():287] _stop: stderr
+2021-02-11 08:20:28,613 INFO    stderr    :3753 [redirect.py:_pipe_relay():129] relay done saw last write: stderr
+2021-02-11 08:20:28,614 INFO    stderr    :3753 [redirect.py:_pipe_relay():145] relay done done: stderr
+2021-02-11 08:20:28,613 INFO    MainThread:3753 [redirect.py:_stop():293] _stop closed: stderr
+2021-02-11 08:20:28,614 INFO    MainThread:3753 [redirect.py:_stop():299] _stop joined: stderr
+2021-02-11 08:20:28,614 INFO    MainThread:3753 [redirect.py:_stop():301] _stop rd closed: stderr
+2021-02-11 08:20:28,614 INFO    MainThread:3753 [redirect.py:uninstall():236] uninstall done
+2021-02-11 08:20:28,734 INFO    MainThread:3753 [wandb_run.py:_wait_for_finish():1504] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 27526
+  total_bytes: 27526
+}
+
+2021-02-11 08:20:30,741 INFO    MainThread:3753 [wandb_run.py:_wait_for_finish():1504] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+  media_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 54379
+  total_bytes: 54379
+}
+
+2021-02-11 08:20:32,191 INFO    MainThread:3753 [wandb_run.py:_show_summary():1659] rendering summary
+2021-02-11 08:20:32,192 INFO    MainThread:3753 [wandb_run.py:_show_history():1697] rendering history
+2021-02-11 08:20:32,192 INFO    MainThread:3753 [wandb_run.py:_show_files():1726] logging synced files
